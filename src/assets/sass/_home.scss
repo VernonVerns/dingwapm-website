@@ -1,0 +1,113 @@
+#home_page {
+    .hero {
+        height: calc(100vh - 40px);
+        width: 100vw;
+        background-image: url("../img/hero_bg2.jpg");
+        background-position: top;
+        background-size: cover;
+
+        .content {
+            background: rgb(49,133,168);
+            background: linear-gradient(180deg, rgba(49,133,168,0.6) 0%, rgba(0,212,255,0) 100%);
+            height: 100vh;
+            width: 100vw;
+            padding: 15em 8em;
+
+            h1 {
+                font-size: 60px;
+                font-weight: 600;
+                margin: 0;
+                margin-bottom: 0.3em;
+                color: $black-color;
+            }
+
+            p {
+                font-size: 20px;
+                width: 70%;
+                color: $black-color;
+            }
+
+            .learn-more-btn {
+                background-color: $white-color;
+                border-radius: 50px;
+                font-size: 18px;
+                padding: 0.65em 1.5em;
+                border: 0;
+                color: $dark-color;
+                transition: $transition-style;
+                margin-top: 2em;
+
+                &:hover {
+                    color: $black-color;
+                    transition: $transition-style;
+                }
+            }
+        }
+
+    }
+
+    .stats-container {
+        padding: 5em 8em;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 300;
+            color: $black-color;
+            margin-bottom: 0.5em;
+            line-height: 50px;
+
+            span {
+                font-weight: 600;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            color: $dark-color;
+            width: 60%;
+            margin-bottom: 3em;
+        }
+
+        .stats {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            h4 {
+                margin: 0;
+                font-size: 30px;
+                font-weight: 700;
+                color: $black-color;
+            }
+
+            span {
+                font-size: 16px;
+                color: $dark-color;
+            }
+        }
+    }
+
+    .why-dingwa {
+        background-color: #EAF3F5;
+        padding: 5em 8em;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 300;
+            color: $black-color;
+            margin-bottom: 0.5em;
+            line-height: 50px;
+
+            span {
+                font-weight: 600;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            color: $dark-color;
+            width: 60%;
+            margin-bottom: 3em;
+        }
+    }
+}
